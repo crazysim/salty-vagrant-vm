@@ -11,7 +11,7 @@ Vagrant::Config.run do |config|
 
   ## Use all the defaults:
   config.vm.provision :salt do |salt|
-    salt.run_highstate = false
+    salt.run_highstate = true
 
     ## Optional Settings:
     # salt.minion_config = "salt/minion.conf"
