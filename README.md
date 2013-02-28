@@ -7,3 +7,4 @@ This is an extract of the example vagrant VM found in the salty-vagrant reposito
 3. `git remote add github <your repo url>`
 4. `git push github split:master`
 
+This does contain a few changes I like though.
