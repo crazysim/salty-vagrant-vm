@@ -2,7 +2,8 @@
 
 Vagrant::Config.run do |config|
   ## Chose your base box
-  config.vm.box = "precise64"
+  config.vm.box = "opscode-ubuntu-12.04"
+  config.vm.box_url = "https://opscode-vm.s3.amazonaws.com/vagrant/opscode_ubuntu-12.04_chef-11.2.0.box"
 
   ## For masterless, mount your salt file root
   config.vm.share_folder "salt_file_root", "/srv", "salt/roots/"
