@@ -8,3 +8,15 @@ This is an extract of the example vagrant VM found in the salty-vagrant reposito
 4. `git push github split:master`
 
 This does contain a few changes I like though.
+
+You must install the salty-vagrant gem:
+
+```sh
+vagrant gem install vagrant-salt
+```
+
+or, for rubygem users
+
+```sh
+gem install vagrant-salt
+```
